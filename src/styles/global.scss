@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 16px Arial, Helvetica, sans-serif;
+    color: #121214;
+    background-color: #181B23;
+}
+
+div#app-container {
+    display: flex;
+}
+
+.page-content {
+    background-color: #1f2029;
+    width: 100%;
+    border-radius: 15px;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+
+    h1 {
+        margin-left: 2rem;
+        margin-top: 1rem;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    div#app-container {
+        align-items: center;
+        height: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

@@ -1,0 +1,61 @@
+div#sidebar-content {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: calc(100vh - 7rem); //content - header
+}
+
+.nav-section {
+    margin-left: 2rem;
+
+    a {
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    p {
+        font-weight: bold;
+        color: #797d9a;
+        font-size: small;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+        margin-top: 25px;
+
+        a {
+            color: #ed64a6;
+        }
+
+        * +  a {
+            margin-top: 15px;
+        }
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    #sidebar-drawer {
+        padding-top: 1rem;
+        height: 100%;
+        width: 12rem;
+        opacity: 10;
+        background-color: #1f2029;
+        
+        .nav-section { 
+
+            p {
+                font-size: 16px;
+            }
+
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+}

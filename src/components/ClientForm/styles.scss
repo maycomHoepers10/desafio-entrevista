@@ -1,0 +1,29 @@
+.MuiFormLabel-root {
+    color: white!important;
+}
+
+.MuiInputBase-input {
+    color: white!important;
+}
+
+.form-content {
+    padding: 0px 2rem;
+}
+
+* + .form-row {
+    display: flex;
+    flex-direction: row; 
+    margin-top: 15px;
+}
+
+.form-row > div:not(:first-child){
+    margin-left: 10px;
+}
+
+.success-message {
+    text-align: center;
+
+    h1 {
+        color: #b5e7a0;
+    }
+}
