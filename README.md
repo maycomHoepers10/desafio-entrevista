@@ -1,7 +1,5 @@
 # Desafio para entrevista de emprego
 
-## Available Scripts
-
 ### `yarn install` para baixar os pacotes
 
 ### `yarn start` para executar o projeto
