@@ -1,6 +1,5 @@
-# desafio-entrevista
-Desafio para vaga de desenvolvedor frontend
-
+# desafio
+Desafio para medir conhecimento
 
 Executar projeto:
 npm install or yarn install para baixar os node_modules.
